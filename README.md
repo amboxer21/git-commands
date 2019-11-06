@@ -1,4 +1,4 @@
-# git-commands
+# Git Commands
 
 ### Sync upstream with local master
 ```
