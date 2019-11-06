@@ -114,7 +114,7 @@ Step 04) gain root access
 Step 06) change your dir to /var/asterisk/hosted/current
 Step 07) Use wget to pull the patch file in to the app server
 example:
-[root@app0 current]# wget https://patch-diff.githubusercontent.com/raw/upstream-name/repo-name/pull/2484.patch?token=AAQAYIT7XZ52BNNU3RJYSUK5XSPIW -O 2484.patch --no-check-certificate
+[root@app-server current]# wget https://patch-diff.githubusercontent.com/raw/upstream-name/repo-name/pull/2484.patch?token=AAQAYIT7XZ52BNNU3RJYSUK5XSPIW -O 2484.patch --no-check-certificate
 Step 08) Run -> git apply --check 2484.patch
 Step 09) If everything checks out then run the git apply command with out the --check option
 Step 10) Run a touch tmp/restart.txt (still on the app server)
